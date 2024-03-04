@@ -1,5 +1,7 @@
 pragma solidity >=0.8.18;
 
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
 contract CyberCorgi is Ownable, ERC20 {
 
     event Before(address _address, uint _balanceBeforeTransfer);
